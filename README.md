@@ -58,6 +58,7 @@ automation
 - **Appium Python Client:** 5.2.4
 - **Android Driver:** UiAutomator2
 - **Test Device:** Galaxy Z Flip (Android 12)
+- **Test App Version:** 25.41.0
 
 ---
 
