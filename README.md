@@ -48,7 +48,8 @@ automation
 │   ├── base_capability.py     # Appium 드라이버 및 Config 로드 공통 설정
 │   └── test_login_flow.py     # 시나리오별 테스트 메서드
 ├── config.json.example        # 환경 설정 샘플 파일
-├── testcase_spreadsheet.xlsx  # 테스트케이스 엑셀 파일
+├── testcase_spreadsheet.xlsx  # 자동화 테스트케이스 엑셀 파일
+├── manual_testcase_spreadsheet.xlsx  # 메뉴얼 테스트케이스 엑셀 파일
 └── README.md                  # 프로젝트 가이드
 ```
 
