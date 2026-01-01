@@ -6,6 +6,8 @@
 ---
 
 ## 🚀 테스트 범위 (Test Scenarios)
+전체적인 시나리오 중 내부적으로 관리가 가능한 **이메일 계정 로그인 시나리오**을 중심으로 자동화하였습니다.
+소셜 계정 로그인은 외부 플랫폼(애플, 카카오, 네이버)의 보안 정책이나 세션 유지 문제, UI 변경에 민감하여 이번 자동화 범위에서 제외되었습니다.
 
 | ID | 테스트 케이스 명 | 주요 검증 포인트 |
 |:---:|:---|:---|
@@ -18,8 +20,8 @@
 | **TC-12** | 로그인 실패 시나리오 | 유효하지 않은 비밀번호 입력 시 오류 메시지 확인 |
 | **TC-13** | **계정 잠금 시나리오** | 10회 이상 실패 시 발생하는 로그인 제한 동작 검증 |
 
-#### 상세 테스트 케이스는 아래 문서를 참조하세요.
-- [테스트케이스(Excel)](bucketplace/automation/testcase_spreadsheet.xlsx)
+#### 상세 테스트 케이스는 아래 문서를 참고해주세요.
+- [자동화 테스트케이스(Excel)](bucketplace/automation/testcase_spreadsheet.xlsx), [메뉴얼 테스트케이스(Excel)](bucketplace/automation/manual_testcase_spreadsheet.xlsx)
 
 ---
 
