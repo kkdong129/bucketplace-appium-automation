@@ -14,10 +14,11 @@ class BaseOptions(unittest.TestCase):
 
     def get_common_options(self):
         '''모든 테스트에서 공통으로 사용하는 옵션을 정리합니다.'''
+        device_settings = self.config['device_settings']
         options = UiAutomator2Options()
-        options.platform_name = device['platform_name']
-        options.automation_name = device['automation_name']
-        options.udid = device['udid']
+        options.platform_name = device_settings['platform_name']
+        options.automation_name = device_settings['automation_name']
+        options.udid = device_settings['udid']
         options.app_package = 'net.bucketplace'
         options.app_activity = 'se.ohou.screen.splash.SplashActivity'
         options.no_reset = False
