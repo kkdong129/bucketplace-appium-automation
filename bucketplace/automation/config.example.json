@@ -1,0 +1,21 @@
+{
+  "device_settings": {
+    "udid": "YOUR_DEVICE_UDID_HERE",
+    "platform_name": "Android",
+    "automation_name": "UiAutomator2"
+  },
+  "accounts": {
+    "valid_user": {
+      "email": "your_test_email@example.com",
+      "password": "your_password"
+    },
+    "block_test": {
+      "email": "block_test_user@example.com",
+      "wrong_password": "wrong_password_123"
+    },
+    "temp_user": {
+      "email": "temp_user@example.com",
+      "password": "temp_password"
+    }
+  }
+}
